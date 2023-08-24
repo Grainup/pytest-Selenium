@@ -5,7 +5,8 @@
         "password":"123123",
         "password2":"123123",
         "referrer":"",
-        "expect": "请用手机号或邮箱注册"
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
 
     },
     "case2": {
@@ -14,8 +15,18 @@
         "password":"123123",
         "password2":"123321",
         "referrer":"",
-        "expect": "两次输入密码不一致"
+        "expect": "两次输入密码不一致",
+        "isTrue": false
+
+    },
+    "case3": {
+        "username": "17901491586",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "安全退出",
+        "isTrue": true
 
     }
-    
 }

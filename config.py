@@ -14,5 +14,20 @@ class ConfigManager:
     # 登录路径
     WEB_URL_LOGIN = f'{WEB_URL}/Home/User/login.html'
 
+    # 报告文件
+    REPORT_FILE = os.path.join(BASE_DIR, 'reports\\allure-report\\index.html')
+
+    # 邮件信息
+    EMAIL_INFO = {
+        'username': 'xiahuakun2021@163.com',  # 切换成你自己的地址
+        'password': 'ULOBNBGFKYHNASAD',
+        'smtp_host': 'smtp.163.com',
+        'smtp_port': 465
+    }
+
+    # 收件人
+    ADDRESSEE = [
+        '577246924@qq.com',
+    ]
 
 con = ConfigManager()
