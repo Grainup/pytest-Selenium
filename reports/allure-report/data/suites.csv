@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Aug 24 20:21:50 CST 2023","Thu Aug 24 20:22:08 CST 2023","18355","Testcase","test_register","TestRegister","","","test_001[17901491586-8888-123123-123123--\u5b89\u5168\u9000\u51fa-True]",""
-"passed","Thu Aug 24 20:21:41 CST 2023","Thu Aug 24 20:21:45 CST 2023","3888","Testcase","test_register","TestRegister","","","test_001[-8888-123123-123123--\u8bf7\u7528\u624b\u673a\u53f7\u6216\u90ae\u7bb1\u6ce8\u518c-False]",""
-"passed","Thu Aug 24 20:21:45 CST 2023","Thu Aug 24 20:21:49 CST 2023","3886","Testcase","test_register","TestRegister","","","test_001[17805591586-8888-123123-123321--\u4e24\u6b21\u8f93\u5165\u5bc6\u7801\u4e0d\u4e00\u81f4-False]",""
+"passed","Tue Sep 26 09:49:02 CST 2023","Tue Sep 26 09:49:07 CST 2023","4889","Testcase","test_register","TestRegister","","","test_001[-8888-123123-123123--\u8bf7\u7528\u624b\u673a\u53f7\u6216\u90ae\u7bb1\u6ce8\u518c-False]",""
+"passed","Tue Sep 26 09:49:08 CST 2023","Tue Sep 26 09:49:12 CST 2023","4866","Testcase","test_register","TestRegister","","","test_001[17805591586-8888-123123-123321--\u4e24\u6b21\u8f93\u5165\u5bc6\u7801\u4e0d\u4e00\u81f4-False]",""
+"passed","Tue Sep 26 09:49:13 CST 2023","Tue Sep 26 09:49:23 CST 2023","10372","Testcase","test_register","TestRegister","","","test_001[17301693376-8888-123123-123123--\u5b89\u5168\u9000\u51fa-True]",""

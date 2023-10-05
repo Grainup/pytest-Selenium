@@ -13,3 +13,9 @@ register = By.CSS_SELECTOR, '.fnlogin .J_btn_agree'
 alert_true = By.CSS_SELECTOR, '.islogin :nth-child(2)'
 alert_false = By.CSS_SELECTOR, '.layui-layer-padding'
 click_reg = By.CSS_SELECTOR, '.nologin :nth-child(2)'
+
+# =============== 登录界面 =============== #
+login_user = By.CSS_SELECTOR, '.text_uspa #username'
+login_pass = By.CSS_SELECTOR, '.text_uspa #password'
+login_code = By.CSS_SELECTOR, '.text_uspa #verify_code'
+login_btn = By.CSS_SELECTOR, '.J-login-submit'

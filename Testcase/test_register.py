@@ -27,11 +27,14 @@ class TestRegister:
         # # 验证注册  isTrue---true表示正向用例，false--表示反向用例
         if isTrue:
             alertText2 = self.register.get_true_submit_context()
-            sleep(1)
+            sleep(2)
+            assert alertText2 == expect
+            sleep(2)
             self.register.click_quit()
             self.register.click_reg()
-            assert alertText2 == expect
+
         else:
             alertText = self.register.get_false_submit_context()
             self.driver.refresh()
+            sleep(1)
             assert alertText == expect

@@ -12,7 +12,7 @@ class ConfigManager:
     # 手机号注册路径
     WEB_URL_REGISTER_TEL = f'{WEB_URL}/Home/user/reg.html'
     # 登录路径
-    WEB_URL_LOGIN = f'{WEB_URL}/Home/User/login.html'
+    WEB_URL_LOGIN = f'{WEB_URL}/Home/user/login.html'
 
     # 报告文件
     REPORT_FILE = os.path.join(BASE_DIR, 'reports\\allure-report\\index.html')

@@ -1,0 +1,82 @@
+2023-09-26 09:43:46,639 INFO [admin] [base.py (__init__:16)] - 正在获取浏览器驱动对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="e466baaa08081dd72fe47e4a069d23a6")>
+2023-09-26 09:43:46,790 INFO [admin] [base.py (get_url:25)] - 打开网页：http://127.0.0.1/Home/user/reg.html
+2023-09-26 09:43:47,819 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#username') 
+2023-09-26 09:43:47,825 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#username') 输入内容：
+2023-09-26 09:43:47,845 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#username') 清空
+2023-09-26 09:43:47,879 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#username') 输入内容
+2023-09-26 09:43:48,380 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.J_imgcode') 
+2023-09-26 09:43:48,387 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容：8888
+2023-09-26 09:43:48,398 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.J_imgcode') 清空
+2023-09-26 09:43:48,424 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容
+2023-09-26 09:43:48,927 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password') 
+2023-09-26 09:43:48,933 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password') 输入内容：123123
+2023-09-26 09:43:48,945 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password') 清空
+2023-09-26 09:43:48,974 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password') 输入内容
+2023-09-26 09:43:49,479 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password2') 
+2023-09-26 09:43:49,488 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password2') 输入内容：123123
+2023-09-26 09:43:49,499 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password2') 清空
+2023-09-26 09:43:49,526 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password2') 输入内容
+2023-09-26 09:43:50,042 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 
+2023-09-26 09:43:50,052 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容：
+2023-09-26 09:43:50,066 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.fnlogin :nth-child(5) .J_cellphone') 清空
+2023-09-26 09:43:50,091 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容
+2023-09-26 09:43:50,092 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin .J_btn_agree') 
+2023-09-26 09:43:50,127 INFO [admin] [base.py (base_click_element:44)] - 正在点击元素：('css selector', '.fnlogin .J_btn_agree')
+2023-09-26 09:43:51,135 INFO [admin] [base.py (base_get_text:60)] - 正在获取元素：('css selector', '.layui-layer-padding') 的文本内容
+2023-09-26 09:43:51,135 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.layui-layer-padding') 
+2023-09-26 09:43:52,220 INFO [admin] [base.py (__init__:16)] - 正在获取浏览器驱动对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="e466baaa08081dd72fe47e4a069d23a6")>
+2023-09-26 09:43:52,294 INFO [admin] [base.py (get_url:25)] - 打开网页：http://127.0.0.1/Home/user/reg.html
+2023-09-26 09:43:53,322 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#username') 
+2023-09-26 09:43:53,331 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#username') 输入内容：17805591586
+2023-09-26 09:43:53,341 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#username') 清空
+2023-09-26 09:43:53,373 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#username') 输入内容
+2023-09-26 09:43:53,884 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.J_imgcode') 
+2023-09-26 09:43:53,889 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容：8888
+2023-09-26 09:43:53,900 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.J_imgcode') 清空
+2023-09-26 09:43:53,925 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容
+2023-09-26 09:43:54,432 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password') 
+2023-09-26 09:43:54,435 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password') 输入内容：123123
+2023-09-26 09:43:54,446 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password') 清空
+2023-09-26 09:43:54,478 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password') 输入内容
+2023-09-26 09:43:54,983 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password2') 
+2023-09-26 09:43:54,987 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password2') 输入内容：123321
+2023-09-26 09:43:54,996 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password2') 清空
+2023-09-26 09:43:55,023 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password2') 输入内容
+2023-09-26 09:43:55,534 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 
+2023-09-26 09:43:55,537 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容：
+2023-09-26 09:43:55,547 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.fnlogin :nth-child(5) .J_cellphone') 清空
+2023-09-26 09:43:55,569 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容
+2023-09-26 09:43:55,569 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin .J_btn_agree') 
+2023-09-26 09:43:55,588 INFO [admin] [base.py (base_click_element:44)] - 正在点击元素：('css selector', '.fnlogin .J_btn_agree')
+2023-09-26 09:43:56,602 INFO [admin] [base.py (base_get_text:60)] - 正在获取元素：('css selector', '.layui-layer-padding') 的文本内容
+2023-09-26 09:43:56,602 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.layui-layer-padding') 
+2023-09-26 09:43:57,677 INFO [admin] [base.py (__init__:16)] - 正在获取浏览器驱动对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="e466baaa08081dd72fe47e4a069d23a6")>
+2023-09-26 09:43:57,752 INFO [admin] [base.py (get_url:25)] - 打开网页：http://127.0.0.1/Home/user/reg.html
+2023-09-26 09:43:58,777 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#username') 
+2023-09-26 09:43:58,787 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#username') 输入内容：17901693376
+2023-09-26 09:43:58,799 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#username') 清空
+2023-09-26 09:43:58,827 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#username') 输入内容
+2023-09-26 09:43:59,337 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.J_imgcode') 
+2023-09-26 09:43:59,344 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容：8888
+2023-09-26 09:43:59,355 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.J_imgcode') 清空
+2023-09-26 09:43:59,379 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.J_imgcode') 输入内容
+2023-09-26 09:43:59,885 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password') 
+2023-09-26 09:43:59,891 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password') 输入内容：123123
+2023-09-26 09:43:59,902 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password') 清空
+2023-09-26 09:43:59,930 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password') 输入内容
+2023-09-26 09:44:00,445 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '#password2') 
+2023-09-26 09:44:00,449 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '#password2') 输入内容：123123
+2023-09-26 09:44:00,460 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '#password2') 清空
+2023-09-26 09:44:00,486 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '#password2') 输入内容
+2023-09-26 09:44:01,002 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 
+2023-09-26 09:44:01,005 INFO [admin] [base.py (base_send_keys:50)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容：
+2023-09-26 09:44:01,014 INFO [admin] [base.py (base_send_keys:53)] - 正在给元素：('css selector', '.fnlogin :nth-child(5) .J_cellphone') 清空
+2023-09-26 09:44:01,038 INFO [admin] [base.py (base_send_keys:56)] - 正在给元素： ('css selector', '.fnlogin :nth-child(5) .J_cellphone') 输入内容
+2023-09-26 09:44:01,039 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.fnlogin .J_btn_agree') 
+2023-09-26 09:44:01,062 INFO [admin] [base.py (base_click_element:44)] - 正在点击元素：('css selector', '.fnlogin .J_btn_agree')
+2023-09-26 09:44:02,068 INFO [admin] [base.py (base_get_text:60)] - 正在获取元素：('css selector', '.islogin :nth-child(2)') 的文本内容
+2023-09-26 09:44:02,068 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.islogin :nth-child(2)') 
+2023-09-26 09:44:08,367 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.islogin :nth-child(2)') 
+2023-09-26 09:44:08,578 INFO [admin] [base.py (base_click_element:44)] - 正在点击元素：('css selector', '.islogin :nth-child(2)')
+2023-09-26 09:44:08,578 INFO [admin] [base.py (base_find_element:37)] - 正在查找元素： ('css selector', '.nologin :nth-child(2)') 
+2023-09-26 09:44:08,666 INFO [admin] [base.py (base_click_element:44)] - 正在点击元素：('css selector', '.nologin :nth-child(2)')

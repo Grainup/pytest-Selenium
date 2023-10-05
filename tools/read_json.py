@@ -13,6 +13,6 @@ def get_json():
             result.append(re1)
         return result
 
-
-get_j = get_json()
-print(get_j)
+if __name__ == '__main__':
+    get_j = get_json()
+    print(get_j)
