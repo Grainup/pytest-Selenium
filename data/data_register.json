@@ -1,0 +1,137 @@
+{
+    "case1": {
+        "username": "13123456789",
+        "verify_code":"8888",
+        "password":"abcdef",
+        "password2":"abcdef",
+        "referrer":"",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case2": {
+        "username": "13223456789",
+        "verify_code":"8888",
+        "password":"12345678912",
+        "password2":"12345678912",
+        "referrer":"",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case3": {
+        "username": "13323456789",
+        "verify_code":"8888",
+        "password":"@@@@@@@@@@@@@@@@",
+        "password2":"@@@@@@@@@@@@@@@@",
+        "referrer":"",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case4": {
+        "username": "13423456789",
+        "verify_code":"8888",
+        "password":"12345abcde@",
+        "password2":"12345abcde@",
+        "referrer":"",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case5": {
+        "username": "13523456789",
+        "verify_code":"8888",
+        "password":"12345abcde@",
+        "password2":"12345abcde@",
+        "referrer":"17805591586",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case6": {
+        "username": "",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
+    },
+    "case7": {
+        "username": "23234567891",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
+    },
+    "case8": {
+        "username": "11234567891",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
+    },
+    "case9": {
+        "username": "1312345678",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
+    },
+    "case10": {
+        "username": "1312345678a",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "请用手机号或邮箱注册",
+        "isTrue": false
+    },
+    "case11": {
+        "username": "17805591586",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123123",
+        "referrer":"",
+        "expect": "账号已存在",
+        "isTrue": false
+    },
+    "case12": {
+        "username": "13999954321",
+        "verify_code":"8888",
+        "password":"",
+        "password2":"",
+        "referrer":"17805591586",
+        "expect": "请输入用户名或密码",
+        "isTrue": false
+    },
+    "case13": {
+        "username": "13999954321",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"",
+        "referrer":"",
+        "expect": "两次输入密码不一致",
+        "isTrue": false
+    },
+    "case14": {
+        "username": "13999954321",
+        "verify_code":"8888",
+        "password":"123123",
+        "password2":"123321",
+        "referrer":"",
+        "expect": "两次输入密码不一致",
+        "isTrue": false
+    },
+    "case15": {
+        "username": "13999954321",
+        "verify_code":"8888",
+        "password":"123",
+        "password2":"",
+        "referrer":"",
+        "expect": "两次输入密码不一致",
+        "isTrue": false
+    }
+}

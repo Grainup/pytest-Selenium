@@ -14,6 +14,7 @@ class BaseMethod:
     def __init__(self, driver):
         self.driver = driver
         logger.info("正在获取浏览器驱动对象：{}".format(driver))
+
     # 获取url
     def get_url(self, url):
         """打开网址并验证"""
@@ -95,4 +96,4 @@ class BaseMethod:
     #     wait = WebDriverWait(self.driver, 10)
     #     wait.until(EC.alert_is_present())
     #     self.driver.switch_to.alert.accept()  # 注意之前的两步
-        # self.driver.switch_to.alert()
+    # self.driver.switch_to.alert()

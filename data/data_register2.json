@@ -1,0 +1,29 @@
+{
+    "case1": {
+        "username": "13987654321",
+        "verify_code":"8888",
+        "password":"12312",
+        "password2":"12312",
+        "referrer":"",
+        "expect": "密码为6-16位大小写英文字母、数字或符号组合",
+        "isTrue": false
+    },
+    "case2": {
+        "username": "13997654321",
+        "verify_code":"8888",
+        "password":"abcdefghijklmnopq",
+        "password2":"abcdefghijklmnopq",
+        "referrer":"",
+        "expect": "密码为6-16位大小写英文字母、数字或符号组合",
+        "isTrue": false
+    },
+    "case3": {
+        "username": "13999654321",
+        "verify_code":"8888",
+        "password":"12312��",
+        "password2":"12312��",
+        "referrer":"",
+        "expect": "密码为6-16位大小写英文字母、数字或符号组合",
+        "isTrue": false
+    }
+}

@@ -9,11 +9,11 @@ driver = None
 def drivers(request):
     global driver
     if driver is None:
-        driver = Driver(browser="chrome", headless=False)
-        driver.maximize_window()
+        driver = Driver(browser="chrome", headless=False)   # 打开浏览器驱动
+        driver.maximize_window()    # 浏览器窗口最大化
 
     def fn():
-        driver.quit()
+        driver.quit()   # 结束后退出浏览器
 
     request.addfinalizer(fn)
     return driver

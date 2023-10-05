@@ -7,7 +7,7 @@ def main():
     """主函数"""
     steps = [
 
-        "pytest -sv --alluredir reports/allure-results --clean-alluredir",
+        "pytest -vs Testcase/test_login.py --alluredir reports/allure-results --clean-alluredir",
         "allure generate reports/allure-results -c -o reports/allure-report",
         "allure open reports/allure-report"
     ]

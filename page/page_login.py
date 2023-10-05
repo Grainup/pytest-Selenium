@@ -1,6 +1,7 @@
 import page
 from base.base import BaseMethod
 
+
 # 登录界面
 class PageLogin(BaseMethod):
 
@@ -20,8 +21,23 @@ class PageLogin(BaseMethod):
     def __click_login(self):
         self.base_click_element(page.login_btn)
 
+    # 获取弹窗的文本内容
+    def get_true_submit_context(self):
+        return self.base_get_text(page.alert_true)
+
+    def get_false_submit_context(self):
+        return self.base_get_text(page.login_alert_false)
+
+    # 登录成功后，点击安全退出
+    def click_quit(self):
+        self.base_click_element(page.alert_true)
+
+    # 退出登录后，点击登录
+    def click_log(self):
+        self.base_click_element(page.click_log)
+
     # 组合方法
-    def page_register(self, username, password, verify_code):
+    def page_login(self, username, password, verify_code):
         self.__input_phone(username)
         self.__input_password(password)
         self.__input_verify(verify_code)

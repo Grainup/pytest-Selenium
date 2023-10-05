@@ -1,0 +1,18 @@
+[32mINFO    [0m admin:base.py:16 正在获取浏览器驱动对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="58500be452f3c96be40aba4e205845a3")>
+[32mINFO    [0m admin:base.py:26 打开网页：http://127.0.0.1/Home/user/login.html
+[32mINFO    [0m admin:base.py:38 正在查找元素： ('css selector', '.text_uspa #username') 
+[32mINFO    [0m admin:base.py:51 正在给元素： ('css selector', '.text_uspa #username') 输入内容：178055915877
+[32mINFO    [0m admin:base.py:54 正在给元素：('css selector', '.text_uspa #username') 清空
+[32mINFO    [0m admin:base.py:57 正在给元素： ('css selector', '.text_uspa #username') 输入内容
+[32mINFO    [0m admin:base.py:38 正在查找元素： ('css selector', '.text_uspa #password') 
+[32mINFO    [0m admin:base.py:51 正在给元素： ('css selector', '.text_uspa #password') 输入内容：123123
+[32mINFO    [0m admin:base.py:54 正在给元素：('css selector', '.text_uspa #password') 清空
+[32mINFO    [0m admin:base.py:57 正在给元素： ('css selector', '.text_uspa #password') 输入内容
+[32mINFO    [0m admin:base.py:38 正在查找元素： ('css selector', '.text_uspa #verify_code') 
+[32mINFO    [0m admin:base.py:51 正在给元素： ('css selector', '.text_uspa #verify_code') 输入内容：8888
+[32mINFO    [0m admin:base.py:54 正在给元素：('css selector', '.text_uspa #verify_code') 清空
+[32mINFO    [0m admin:base.py:57 正在给元素： ('css selector', '.text_uspa #verify_code') 输入内容
+[32mINFO    [0m admin:base.py:38 正在查找元素： ('css selector', '.J-login-submit') 
+[32mINFO    [0m admin:base.py:45 正在点击元素：('css selector', '.J-login-submit')
+[32mINFO    [0m admin:base.py:61 正在获取元素：('css selector', '.layui-layer-content') 的文本内容
+[32mINFO    [0m admin:base.py:38 正在查找元素： ('css selector', '.layui-layer-content')

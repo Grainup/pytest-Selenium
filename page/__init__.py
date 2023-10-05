@@ -19,3 +19,5 @@ login_user = By.CSS_SELECTOR, '.text_uspa #username'
 login_pass = By.CSS_SELECTOR, '.text_uspa #password'
 login_code = By.CSS_SELECTOR, '.text_uspa #verify_code'
 login_btn = By.CSS_SELECTOR, '.J-login-submit'
+login_alert_false = By.CSS_SELECTOR, ".layui-layer-content"
+click_log = By.CSS_SELECTOR, '.nologin :nth-child(1)'

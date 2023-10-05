@@ -23,18 +23,22 @@ class TestRegister:
     def test_001(self, username, verify_code, password, password2, referrer, expect, isTrue):
         self.register.page_register(username=username, verify_code=verify_code, password=password,
                                     password2=password2, referrer=referrer)
-        sleep(1)
+        sleep(2)
         # # 验证注册  isTrue---true表示正向用例，false--表示反向用例
         if isTrue:
             alertText2 = self.register.get_true_submit_context()
-            sleep(2)
+            sleep(1)
             assert alertText2 == expect
-            sleep(2)
+            sleep(1)
             self.register.click_quit()
+            sleep(1)
             self.register.click_reg()
+            sleep(2)
+            self.driver.refresh()
 
         else:
             alertText = self.register.get_false_submit_context()
             self.driver.refresh()
             sleep(1)
             assert alertText == expect
+

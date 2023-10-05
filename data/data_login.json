@@ -1,0 +1,79 @@
+{
+    "case1": {
+        "username": "17805591586",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case2": {
+        "username": "1466546375@qq.com",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "安全退出",
+        "isTrue": true
+    },
+    "case3": {
+        "username": "14323456789",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "账号不存在!",
+        "isTrue": false
+    },
+   "case4": {
+        "username": "178055915877",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "账号格式不匹配!",
+        "isTrue": false
+    },
+    "case5": {
+        "username": "1780559158a",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "账号格式不匹配!",
+        "isTrue": false
+    },
+    "case6": {
+        "username": "1780559 586",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "账号格式不匹配!",
+        "isTrue": false
+    },
+    "case7": {
+        "username": "",
+        "password":"123123",
+        "verify_code":"8888",
+        "expect": "用户名不能为空!",
+        "isTrue": false
+    },
+    "case8": {
+        "username": "17805591586",
+        "password":"12312",
+        "verify_code":"8888",
+        "expect": "密码错误!",
+        "isTrue": false
+    },
+    "case9": {
+        "username": "17805591586",
+        "password":"",
+        "verify_code":"8888",
+        "expect": "密码不能为空!",
+        "isTrue": false
+    },
+    "case10": {
+        "username": "17805591586",
+        "password":"123123",
+        "verify_code":"6666",
+        "expect": "验证码错误",
+        "isTrue": false
+    },
+    "case11": {
+        "username": "17805591586",
+        "password":"123123",
+        "verify_code":"",
+        "expect": "验证码不能为空!",
+        "isTrue": false
+    }
+}
